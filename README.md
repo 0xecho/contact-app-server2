@@ -1,5 +1,4 @@
-# Project Title
-
+# ContactsAPP
 Loopback.js backend for Contacts App
 
 ## Getting Started

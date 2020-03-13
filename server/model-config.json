@@ -34,5 +34,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Contact": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Tag": {
+    "dataSource": "db",
+    "public": true
+  },
+  "FileStorage": {
+    "dataSource": "filesStorageDS",
+    "public": true
   }
 }

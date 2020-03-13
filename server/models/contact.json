@@ -1,35 +1,52 @@
 {
-  "name": "Contact",
-  "plural": "contacts",
-  "base": "PersistedModel",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "firstname": {
-      "type": "string",
-      "required": true
-    },
-    "lastname": {
-      "type": "string",
-      "required": true
-    },
-    "phone": {
-      "type": "string"
-    },
-    "email": {
-      "type": "string"
-    },
-    "address": {
-      "type": "string"
-    },
-    "about": {
-      "type": "string"
-    }
-  },
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
+	"name": "Contact",
+	"plural": "contacts",
+	"base": "PersistedModel",
+	"idInjection": true,
+	"options": {
+		"validateUpsert": true
+	},
+	"properties": {
+		"firstname": {
+			"type": "string",
+			"required": true
+		},
+		"lastname": {
+			"type": "string",
+			"required": true
+		},
+		"phone": {
+			"type": "string"
+		},
+		"email": {
+			"type": "string"
+		},
+		"address": {
+			"type": "string"
+		},
+		"about": {
+			"type": "string"
+		}
+	},
+	"validations": [],
+	"relations": {
+		"tags": {
+			"type": "hasMany",
+			"model": "Tag",
+			"foreignKey": "",
+			"options": {
+				"nestRemoting": true
+			}
+		},
+		"image": {
+			"type": "hasOne",
+			"model": "FileStorage",
+			"foreignKey": "",
+			"options": {
+				"nestRemoting": true
+			}
+		}
+	},
+	"acls": [],
+	"methods": {}
 }

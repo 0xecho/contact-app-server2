@@ -27,18 +27,6 @@ node .
 
 You now should be able to access the local site using [http://localhost:3000](http://localhost:3000)
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Authors
 
 * **Elias Amha** - *0xecho* - [Github](https://github.com/0xecho)

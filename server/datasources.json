@@ -1,12 +1,19 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "filesStorageDS": {
     "name": "filesStorageDS",
     "connector": "loopback-component-storage",
     "provider": "filesystem",
     "root": "./server/storage"
+  },
+  "db": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://localhost:27017/contacts",
+    "database": "",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
 }

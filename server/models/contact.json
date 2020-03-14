@@ -48,5 +48,11 @@
 		}
 	},
 	"acls": [],
-	"methods": {}
+	"methods": {},
+	"mixins": {
+		"Paginator": {
+			"limit": 2,
+			"maxLimit": 2
+		}
+	}
 }

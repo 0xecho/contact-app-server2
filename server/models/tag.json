@@ -19,5 +19,11 @@
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": {},
+  "mixins": {
+    "Paginator": {
+      "limit": 10,
+      "maxLimit": 50
+    }
+  }
 }

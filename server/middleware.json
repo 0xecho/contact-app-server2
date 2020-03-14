@@ -33,6 +33,11 @@
   "session": {},
   "auth": {},
   "parse": {},
+  "parse:after": {
+    "./middlewares/pagination": {
+      "enabled": true
+    }
+  },
   "routes": {
     "loopback#rest": {
       "paths": [

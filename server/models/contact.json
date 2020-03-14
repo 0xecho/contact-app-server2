@@ -51,8 +51,8 @@
 	"methods": {},
 	"mixins": {
 		"Paginator": {
-			"limit": 2,
-			"maxLimit": 2
+			"limit": 10,
+			"maxLimit": 50
 		}
 	}
 }
